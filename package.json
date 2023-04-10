@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Login with JWT",
   "main": "index.js",
-  "type":"module",
+  
 
   "scripts": {
     "build":"babel src --out-dir build",
