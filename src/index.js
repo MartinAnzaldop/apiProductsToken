@@ -1,4 +1,4 @@
-import app from "./app.mjs";
+import app from "./app.js";
 import './database'
 
 app.listen(3000);
