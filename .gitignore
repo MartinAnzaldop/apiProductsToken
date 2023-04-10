@@ -1,6 +1,7 @@
 # enviroment variables
+package-lock.json
 .env
 
 #node
-node_modules
+node_modules/*
 dist
