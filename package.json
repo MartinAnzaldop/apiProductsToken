@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "Login with JWT",
   "main": "index.js",
+  "type":"module",
+
   "scripts": {
     "build":"babel src --out-dir build",
     "dev": "nodemon src/index.js --exec babel-node",
     "star": "node build/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+    
   },
   "keywords": [],
   "author": "Martin Anzaldo",
@@ -29,4 +32,6 @@
     "@babel/preset-env": "^7.21.4",
     "nodemon": "^2.0.22"
   }
+  
 }
+
