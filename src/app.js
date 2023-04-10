@@ -7,11 +7,12 @@ import userRoutes from './routes/user.routes'
 import {createRoles} from './libs/initialSetup';
 
 
+var cors = require('cors')
 const app = express();
 createRoles();
 
 app.set('pkg',pkg);
-
+app.use(cors())
 app.use(morgan('dev'));
 app.use(express.json());
 app.get('/',(req, res)=>{
